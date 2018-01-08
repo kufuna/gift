@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	background: black;
+}
+* {
+	box-sizing: border-box;
+	font-family: 'Montserrat';
+	color: white;
+}
+h1 {
+	font-weight: 300;
+	text-align: center;
+	padding: 10px 10px;
+}
+h1 span {
+	color: gold;
+}
+div.gift_box {
+	width: 300px;
+	margin: auto;
+	position: relative;
+	height: 300px;
+}
+div.box {
+	width: 100%;
+	height: 300px;
+	position: absolute;
+	background: url(../img/box.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+	z-index: 99;
+}
+div.tooth {
+	width: 100%;
+	height: 300px;
+	display: none;
+	position: absolute;
+	background: url(../img/tooth.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
